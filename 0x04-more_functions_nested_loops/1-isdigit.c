@@ -1,17 +1,11 @@
 #include "main.h"
-
 /**
-* print_alphabet - prints all alphabets in lowercase
-* Return: On success 1.
-*/
-
-void print_alphabet(void)
+* _isdigit - checks for digits
+* @c: the character to check for
+* Description: checks for digits.
+* Return: 1 if c is a digit. 0 otherwise
+**/
+	int _isdigit(int c)
 {
-	char i;
-
-	for (i = 'a'; i <= 'z'; i++)
-	{
-	_putchar(i);
-}
-	_putchar('\n');
+return (c >= '0' && c <= '9');
 }
