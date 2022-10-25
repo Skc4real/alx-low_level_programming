@@ -9,7 +9,8 @@
 
 void _puts(char *str)
 {
-	char *str[] = "My name is Sunday Chukwunyere";
+	while (*str)
 
-	puts(*str);
+	_putchar(*str++);
+	_putchar('\n');
 }
