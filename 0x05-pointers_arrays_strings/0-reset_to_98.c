@@ -3,7 +3,7 @@
 
 /**
 * reset_to_98 - Pointing to a parameter int
-* Print value of int n
+* @n: a pointer 
 * Return: void
 */
 
