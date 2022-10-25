@@ -9,7 +9,7 @@
 
 void _puts(char *str)
 {
-	char str[100];
+	char str[] = "My name is Sunday Chukwunyere";
 
-	_puts("%s\n", str)
+	puts(str);
 }
