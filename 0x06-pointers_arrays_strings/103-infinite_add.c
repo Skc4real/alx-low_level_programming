@@ -28,7 +28,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		add += n1[len1] - '0';
 		if (len2 >= 0)
 		add += n2[len2] - '0';
-		if (len1 < 0 && len2 < 0 && add == 0)
+	if (len1 < 0 && len2 < 0 && add == 0)
 	break;
 
 	r[i] = add % 10 + '0';
