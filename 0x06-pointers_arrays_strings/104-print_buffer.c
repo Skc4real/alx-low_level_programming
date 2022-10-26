@@ -47,5 +47,5 @@ void print_buffer(char *b, int size)
 	printf(".");
 	else
 	printf("%c", b[i]);
-}	
+}
 	printf("\n");	}	}	}
