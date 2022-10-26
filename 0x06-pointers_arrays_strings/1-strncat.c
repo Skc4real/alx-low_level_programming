@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
-*_strcat - a function that concatinate 2 strings.
+*_strncat - a function that concatinate 2 strings.
 *@dest: first string.
 *@src: second string.
+*@n: Integer value
 *Return: string.
 */
 
