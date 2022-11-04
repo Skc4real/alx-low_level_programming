@@ -7,7 +7,7 @@
 *Return: int.
 */
 
-int is_palindrome(char *s)
+int _strlen(char *s, int i)
 {
 	if (s[i])
 {
