@@ -67,6 +67,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 void *mul_array(char *a1, int len1, char a2, char *a3, int lena)
 {
 	int mul = 0, i, k;
+
 	k = lena;
 
 	for (i = len1 - 1; i >= 0 ; i--)
