@@ -33,6 +33,7 @@ char **strtow(char *str)
 {
 	char **tab;
 	int words, i = 0, j, c = 0, k;
+
 	words = count(str);
 
 	if (words == 0)
