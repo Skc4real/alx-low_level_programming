@@ -1,22 +1,17 @@
 #include "main.h"
 
 /**
-* flip_bits - flip to get from one number to another
+* clear_bit - Entry Point
 * @n: input
-* @m: bits
+* @index: index
 * Return: 0
 */
 
-unsigned int flip_bits(unsigned long int n, unsigned long int m)
+int clear_bit(unsigned long int *n, unsigned int index)
 {
-	unsigned int count = 0;
+	if (index > 63)
+	return (-1);
 
-	while (n != 0 || m != 0)
-{
-	if ((n & 1) != (m & 1))
-	count++;
-	m = m >> 1;
-	n = n >> 1;
-}
-	return (count);
+	*n = *n & ~(1ul << index);
+	return (1);
 }
